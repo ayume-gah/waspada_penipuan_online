@@ -3,6 +3,12 @@ import streamlit as st
 import re #regex
 import random
 
+st.set_page_config(
+    layout="wide",
+    page_icon='🎭',
+    page_title="Waspada Penipuan Online",
+)
+
 st.sidebar.markdown("# Password Checker")
 st.sidebar.image('password.svg')
 st.header('Password Strong Checker')
