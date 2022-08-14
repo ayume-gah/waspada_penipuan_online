@@ -59,7 +59,7 @@ st.write('----')
 st.markdown ("<h2 style='margin-bottom:10px;text-align:center;'> Meet Our Team </h2>", unsafe_allow_html=True)
 col1,col2,col3=st.columns([2,1,2])
 with col2:
-    st.image('pinkhat_logo.png', width=200)
+    st.image('Pinkhat_logo.png', width=200)
 col1, col2, col3, col4 = st.columns([1,3,3,3])
 with col1:
     st.write()
