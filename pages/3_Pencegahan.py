@@ -1,6 +1,12 @@
 # pages/3_pencegahan.py
 import streamlit as st
 
+st.set_page_config(
+    layout="wide",
+    page_icon='🎭',
+    page_title="Waspada Penipuan Online",
+)
+
 #st.markdown ("Pencegahan Penipuan Online")
 st.sidebar.markdown("# Pencegahan")
 st.sidebar.image('klik.jpeg')
