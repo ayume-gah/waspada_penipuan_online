@@ -14,6 +14,12 @@ import numpy as np
 from bokeh.plotting import figure, show
 from bokeh.models import HoverTool
 
+st.set_page_config(
+    layout="wide",
+    page_icon='🎭',
+    page_title="Waspada Penipuan Online",
+)
+
 st.sidebar.markdown("# Data")
 st.sidebar.image('Grafik.png')
 st.title('Mari Kita Lihat Datanya...')
